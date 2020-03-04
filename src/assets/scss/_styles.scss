@@ -1,0 +1,130 @@
+// $orange: #ff671f;
+// $blue: #2098f5;
+// $black: #333;
+
+// $f2f4-orange: #ff6c02;
+// $f2f4-blue: #536dfe;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  hyphens: none;
+}
+
+table,
+td,
+th,
+tr,
+a,
+div,
+span {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px !important;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+  color: #333;
+}
+
+h1 {
+  font-size: 28px !important;
+}
+
+th {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body,
+html,
+.body {
+  background: #f6f6f6 !important;
+}
+
+p {
+  @media screen and (max-width: 596px) {
+    font-size: 17px;
+  }
+}
+
+h1 {
+  color: #ff671f;
+  font-weight: bold;
+  font-size: 64px;
+  @media screen and (max-width: 596px) {
+    font-size: 22px !important;
+  }
+}
+
+.unsubscribe {
+  color: #777;
+  font-size: 16px;
+  a {
+    color: #777;
+    text-decoration: underline;
+  }
+}
+
+h1,
+p {
+  padding-left: 16px;
+  padding-right: 16px;
+  @media screen and (max-width: 596px) {
+    padding: 0px;
+  }
+}
+
+table.cards .columns.first {
+  padding-right: 6px !important;
+}
+table.cards .columns.last {
+  padding-left: 6px !important;
+}
+
+@media only screen and (max-width: 596px) {
+  table.cards .columns {
+    padding: 0px !important;
+  }
+  table.cards .columns.first {
+    padding-right: 4px !important;
+  }
+  table.cards .columns.last {
+    padding-left: 4px !important;
+  }
+}
+
+.card-link {
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  text-align: center;
+  @media only screen and (max-width: 596px) {
+    text-align: left;
+  }
+}
+
+.card-text {
+  // margin-left: 16px;
+  text-decoration: underline;
+
+  @media only screen and (max-width: 596px) {
+    margin-left: 8px;
+    font-size: 15px;
+    text-align: left;
+  }
+}
